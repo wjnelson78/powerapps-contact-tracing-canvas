@@ -1,7 +1,7 @@
 ﻿#Connect to SharePoint Online Tenant
 
 #Set credentials variables
-$adminUPN="<the full email address of a SharePoint administrator account, example: jdoe@contosotoycompany.onmicrosoft.com>"
+$adminUPN="<the full email address of a SharePoint administrator account, example: administrator@contosotoycompany.onmicrosoft.com>"
 $orgName="<name of your Office 365 organization, example: contosotoycompany>"
 $userCredential = Get-Credential -UserName $adminUPN -Message "Type the password."
 
